@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkslategray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  margin: 0 auto;
+  /* centralizar o container */
+  width: 80%;
+}
+
+header {
+  height: 100px;
+  background-color: blue;
+  border-radius: 20px;
+  padding: 2%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 35px;
+
+}
+
+nav#lateral {
+  width: 20%;
+  background-color: lightsteelblue;
+}
+
+main {
+  width: 77%;
+  background-color: lightgray;
+  padding: 1%;
+  float: right;
+}
+
+/*
+header,
+main {
+  width: 100%;
+}
+  */
+
+header,
+footer {
+  width: 96%;
+}
+
+header,
+nav#lateral,
+footer {
+  float: left;
+}
+
+footer {
+  padding: 2%;
+  height: 400px;
+  background-color: gray;
+  margin-top: 1%;
+}
+
+nav#superior {
+  width: 100%;
+  margin-bottom: 1%;
+  float: left;
+}
+
+/* nav superior inicio */
+
+nav#superior ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+nav#superior li {
+  display: inline-block;
+}
+
+nav#superior li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav#superior li a:hover {
+  background-color: blue;
+}
+
+nav#superior .active {
+  background-color: steelblue;
+}
+
+
+/* nav superior fim */
+
+
+nav#topo {
+  width: 100%;
+  float: left;
+  margin-bottom: 1%;
+}
+
+/* nav topo inicio */
+
+nav#topo ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  text-align: center;
+}
+
+nav#topo li {
+  float: left;
+}
+
+nav#topo li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav#topo li a:hover {
+  background-color: blue;
+}
+
+nav#topo .active {
+  background-color: steelblue;
+}
+
+nav#topo li {
+  border-right: 1px solid dimgray;
+}
+
+nav#topo li:last-child {
+  border-right: none;
+}
+
+/* nav topo fim */
+
+
+/* nav lateral inicio */
+
+nav#lateral ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav#lateral li a {
+  display: block;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav#lateral li a:hover {
+  background-color: blue;
+}
+
+nav#lateral .active {
+  background-color: steelblue;
+  color: white;
+}
+
+/* nav lateral fim */
